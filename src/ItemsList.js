@@ -4,7 +4,7 @@ import LineItems from "./LineItems";
 function ItemsList({ items, handleDelete, handleCheck }) {
   return (
     <>
-      {items.length > 0 ? (
+      {items?.length > 0 ? (
         <ul className="items-list">
           {items?.map((item) => (
             <LineItems
