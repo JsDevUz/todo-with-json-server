@@ -1,7 +1,6 @@
 import React from "react";
 import { FaTrash } from "react-icons/fa";
 function LineItems({ item, handleCheck, handleDelete }) {
-  console.log(item);
   return (
     <li
       className="one-line"
